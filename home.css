@@ -3,7 +3,7 @@ body {
   font-size: 24px;
 }
 main{
-  
+ 
 }
 h1 {
   text-align: center;
@@ -66,11 +66,13 @@ nav a:hover {
   padding-left:15px;
   background:lightgray;
   flex-wrap: wrap;
-  align-content: flex-start;
   overflow: hidden;
-  
+  border-radius: 30px;
+  margin-left: 10px;
+ border-right: 3px solid lightcyan;
+ flex-direction: row-reverse;
+ justify-content:flex-end
 }
-
 .main-container > div{
   background: transparent;
  height:300px;
@@ -88,3 +90,46 @@ div span{
   margin: 0px 80px;
   font-weight: bold
 }
+section{
+  background-image:url('shoe1.png');
+  background-repeat:no-repeat;
+  background-position: center;
+  background-size:7vh 5vh
+}
+
+.guidelines-p{
+  color:red;
+  display: inline-bock; 
+  text-align: center; 
+  width:100%;
+  font-weight: bolder;
+  
+}
+
+
+.column-div{
+  columns: 3;
+  text-align: justify
+}
+footer{
+  width: 100%
+}
+
+.footer-container {
+   
+    display:block;
+    align-items: center;
+    background-color: blue;
+    color: red;
+  /* margin: 0 auto;*/
+  }
+
+  .foot {
+    display: inline-block;
+    color: yellow;
+  }
+  .link{
+    display: inline-block;
+    color: yellow;
+    text-decoration: none;
+  }
