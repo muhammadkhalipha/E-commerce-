@@ -1,0 +1,26 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-size: 16px
+}
+body{
+  background: rosybrown;
+  display:inline-flex;
+  flex-direction:row;
+  align-items: flex-end;
+}
+div{
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width:100vh;
+  
+}
+h1{border-right-style: outset;
+border-right-color: blue;
+border-right-width:1.5px;
+border-top-right-radius: 2px;
+  
+}
